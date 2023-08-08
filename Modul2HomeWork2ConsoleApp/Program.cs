@@ -29,6 +29,7 @@ namespace Modul2HomeWork2ConsoleApp
             Console.WriteLine(scorePattern, "Математика", mathScores);
             Console.WriteLine(scorePattern, "Физика", physicsScores);
 
+            Console.WriteLine("\nНажмите любую клавишу для продолжения ...");
             Console.ReadKey();
 
             float sumOfBalls = 0;
@@ -40,6 +41,7 @@ namespace Modul2HomeWork2ConsoleApp
             Console.WriteLine(scorePatternNewLine, "Сумма баллов", sumOfBalls);
             Console.WriteLine(scorePattern, "Средний балл", averageScore);
 
+            Console.WriteLine("\nНажмите \"Enter\" для завершения ...");
             Console.ReadLine();
         }
     }
