@@ -1,5 +1,5 @@
 # Modul2HomeWork1ConsoleApp
-for 2 modules, homework from 2 projects in one solution
+for 2 module, homework from 2 projects in one solution
 
 Skillbox Дополнительный курс
 C#–разработчик с нуля до PRO
