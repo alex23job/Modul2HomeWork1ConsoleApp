@@ -16,7 +16,7 @@ namespace Modul2HomeWork1ConsoleApp
             string email = "PetrowAP@mail.ru";
             float programmingScores = 4.9f;
             float mathScores = 4.6f;
-            float physicsScores = 4.3f;
+            float physicsScores = 4.4f;
             string scorePattern = "{0, -20} : {1:0.00}";
             string scorePatternNewLine = "\n{0, -20} : {1:0.00}";
 

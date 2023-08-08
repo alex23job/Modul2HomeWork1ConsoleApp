@@ -15,7 +15,7 @@ namespace Modul2HomeWork2ConsoleApp
             int age = 47;
             string email = "IvanowDS@mail.ru";
             float programmingScores = 4.7f;
-            float mathScores = 4.9f;
+            float mathScores = 4.8f;
             float physicsScores = 4.5f;
             string scorePattern = "{0, -20} : {1:0.00}"; 
             string scorePatternNewLine = "\n{0, -20} : {1:0.00}";
