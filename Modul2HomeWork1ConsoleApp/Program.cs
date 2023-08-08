@@ -18,14 +18,13 @@ namespace Modul2HomeWork1ConsoleApp
             float mathScores = 4.6f;
             float physicsScores = 4.4f;
             string scorePattern = "{0, -20} : {1:0.00}";
-            string scorePatternNewLine = "\n{0, -20} : {1:0.00}";
-
+            
             CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
 
             Console.WriteLine("Ф.И.О.  : " + fullName);
             Console.WriteLine("Возраст : {0}", age);
             Console.WriteLine("E-mail  : " + email);
-            Console.WriteLine(scorePatternNewLine, "Программирование", programmingScores);
+            Console.WriteLine(scorePattern, "Программирование", programmingScores);
             Console.WriteLine(scorePattern, "Математика", mathScores);
             Console.WriteLine(scorePattern, "Физика", physicsScores);
 
